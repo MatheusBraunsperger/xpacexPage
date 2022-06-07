@@ -1,0 +1,157 @@
+.container00{
+    &.container05{
+        background-image: url(/Img/Falcon-9/01.jpg);
+    }
+    &.container07{
+        background-image: url(/Img/Falcon-9/02.jpg);
+    }
+    &.container08{
+        background-color: black;
+    }
+    &.container09{
+        background-image: url(/Img/Falcon-9/08.jpg);
+        background-color: black;
+    }
+    &.container10{
+        background-color: black;
+    }
+
+    &.carousel01{
+        background-image: url(../../Img/Falcon-9/03.jpg);
+        background-color: black;
+    }
+    &.carousel02{
+        background-image: url(../../Img/Falcon-9/04.jpg);
+        background-color: black;
+    }
+    &.carousel03{
+        background-image: url(../../Img/Falcon-9/05.jpg);
+        background-color: black;
+    }
+    &.carousel04{
+        background-image: url(../../Img/Falcon-9/06.jpg);
+        background-color: black;
+    }
+    &.carousel05{
+        background-image: url(../../Img/Falcon-9/07.jpg);
+        background-color: black;
+    }
+}
+
+
+
+.titleContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-img6{
+    background-color: black;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#container-img10{
+    width: 100%;
+}
+
+
+#container-img8, #container-img10{
+    padding: 0px;
+}
+
+.info-notes{
+    padding: 50px;
+}
+
+.text-falcon{
+    max-width: 650px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.text-merlin{
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2;
+
+}
+
+.container06{
+    .h1{
+        font-size: 90px;
+    }
+    .h5{
+        font-weight: 300;
+    }
+}
+
+.description-merlin{
+    text-align: right;
+}
+
+.table-align-text-right{
+    text-align: right
+}
+
+.short-title-falcon{
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 600px){
+    .text-falcon{
+        font-size: 15px;
+    }
+    #falcon-title{
+        font-size: 60px;
+    }
+    #falcon-subtitle{
+        font-size: 20px;
+    }
+    #info-row{
+        .h1{
+            font-size: 46px;
+        }
+        .h5{
+            font-size: 15px;
+        }
+    }
+
+    .carousel01{
+        .subtitle-overview{
+            font-size: 10px;
+        }
+        .title-overview{
+            font-size: 15px;
+        }
+        .table{
+            font-size: 10px;
+            width: 300px;
+        }
+        .text-overview{
+            font-size: 13px;
+            width: 300px;
+        }
+
+    }
+    #container-img9{
+        .subtitle-overview{
+            font-size: 10px;
+        }
+        .title-overview{
+            font-size: 15px;
+        }
+        .text-merlin{
+            font-size: 13px;
+            width: 300px;
+        }
+    }
+}
